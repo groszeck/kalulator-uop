@@ -1,0 +1,59 @@
+{
+  "name": "kpj/pracownik-kalkulator",
+  "description": "Kalkulator wynagrodze? brutto ? netto do osadzania na stronach WordPress. Obs?uguje UoP, UZ, UoD, wyliczenia ZUS, podatki, por?wnania, eksport PDF/email, udost?pnianie spo?eczno?ciowe i shortcode.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/kpj/pracownik-kalkulator",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "kalkulator",
+    "wynagrodzenia",
+    "brutto-netto"
+  ],
+  "authors": [
+    {
+      "name": "KPJ Development Team",
+      "email": "dev@kpj.pl",
+      "homepage": "https://kpj.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "squizlabs/php_codesniffer": "^3.8",
+    "wp-coding-standards/wpcs": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "KPJ\\PracownikKalkulator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KPJ\\PracownikKalkulator\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml.dist",
+    "cs": "phpcs --standard=vendor/wp-coding-standards/wpcs/WordPress --extensions=php,inc,php",
+    "fix-cs": "phpcbf --standard=vendor/wp-coding-standards/wpcs/WordPress --extensions=php,inc,php"
+  },
+  "extra": {
+    "installer-paths": {
+      "wp-content/plugins/pracownik-kalkulator/": [
+        "kpj/pracownik-kalkulator"
+      ]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
