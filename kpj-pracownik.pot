@@ -1,0 +1,128 @@
+# KPJ Pracownik Kalkulator plugin translation template
+# Copyright (C) 2024 Your Company
+# Author: Your Company <contact@yourcompany.com>
+# Project home page: https://github.com/yourcompany/kpj-pracownik
+
+msgid ""
+msgstr ""
+"Project-Id-Version: KPJ Pracownik Kalkulator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/yourcompany/kpj-pracownik/issues\n"
+"POT-Creation-Date: 2024-06-01 00:00+0000\n"
+"PO-Revision-Date: 2024-06-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish <pl@wordpress.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/plugin.php:10
+msgid "Pracownik Kalkulator"
+msgstr ""
+
+#: src/plugin.php:11
+msgid "Kalkulator wynagrodze? brutto ? netto do osadzania na stronach WordPress."
+msgstr ""
+
+#: src/admin/menu.php:15
+msgid "Kalkulator"
+msgstr ""
+
+#: src/admin/menu.php:16
+msgid "Ustawienia"
+msgstr ""
+
+#: src/public/shortcode.php:20
+msgid "Wybierz typ umowy"
+msgstr ""
+
+#: src/public/shortcode.php:21
+msgid "Umowa o prac? (UoP)"
+msgstr ""
+
+#: src/public/shortcode.php:22
+msgid "Umowa zlecenie (UZ)"
+msgstr ""
+
+#: src/public/shortcode.php:23
+msgid "Umowa o dzie?o (UoD)"
+msgstr ""
+
+#: src/public/shortcode.php:25
+msgid "Kwota brutto"
+msgstr ""
+
+#: src/public/shortcode.php:26
+msgid "Oblicz"
+msgstr ""
+
+#: src/public/results.php:10
+msgid "Wynik"
+msgstr ""
+
+#: src/public/results.php:11
+msgid "Sk?adka emerytalna"
+msgstr ""
+
+#: src/public/results.php:12
+msgid "Sk?adka rentowa"
+msgstr ""
+
+#: src/public/results.php:13
+msgid "Sk?adka chorobowa"
+msgstr ""
+
+#: src/public/results.php:14
+msgid "Sk?adka wypadkowa"
+msgstr ""
+
+#: src/public/results.php:15
+msgid "Sk?adka zdrowotna"
+msgstr ""
+
+#: src/public/results.php:16
+msgid "Zaliczka na podatek"
+msgstr ""
+
+#: src/public/results.php:17
+msgid "Kwota netto"
+msgstr ""
+
+#: src/public/comparison.php:30
+msgid "Por?wnanie"
+msgstr ""
+
+#: src/public/export.php:40
+msgid "Eksport PDF"
+msgstr ""
+
+#: src/public/export.php:41
+msgid "Wy?lij e-mail"
+msgstr ""
+
+#: src/public/share.php:50
+msgid "Udost?pnij"
+msgstr ""
+
+#: src/public/errors.php:5
+msgid "Brak wynik?w"
+msgstr ""
+
+#: src/public/errors.php:6
+msgid "B??d danych wej?ciowych"
+msgstr ""
+
+#: src/public/js/app.js:1
+msgid "Loading..."
+msgstr ""
+
+#: src/public/js/app.js:2
+msgctxt "button: submit"
+msgid "Submit"
+msgstr ""
+
+#: src/public/js/app.js:3
+msgctxt "button: cancel"
+msgid "Cancel"
+msgstr ""
